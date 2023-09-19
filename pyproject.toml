@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sample"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr Chikovani <a@justrp.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "0.0.207"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
