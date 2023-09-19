@@ -15,3 +15,9 @@ jobs:
         with:
           allow-dynamic-versions: 'true'
           fail-on: 'violations'
+          run: >
+            cache-dependencies,
+            metadata-labels,
+            analyzer,
+            reporter,
+            upload-results
